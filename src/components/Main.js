@@ -14,7 +14,8 @@ class Main extends Component {
         // step 2
         jobTitle: '',
         jobCompany: '',
-        jobLocation: ''
+        jobLocation: '',
+
     }
 
     nextStep = () => {
@@ -65,6 +66,7 @@ class Main extends Component {
                     jobTitle = {jobTitle}
                     jobCompany = {jobCompany}
                     jobLocation = {jobLocation}
+                    nextStep = {this.nextStep}
                     prevStep = {this.prevStep}
             />);
     }

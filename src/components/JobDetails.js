@@ -44,10 +44,10 @@ class JobDetails extends Component {
                     />
                 </label>
                 <button className="Back" onClick={this.back}>
-                    Back
+                    « Back
                 </button>
                 <button className="Next" onClick={this.continue}>
-                    Next 
+                    Next »
                 </button>
             </>
         )

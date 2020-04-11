@@ -30,7 +30,7 @@ class PersonalInformation extends Component {
                     />
                 </label>
                 <button className="Next" onClick={this.continue}>
-                    Next >>
+                    Next »
                 </button>
             </>
         )

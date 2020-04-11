@@ -17,7 +17,7 @@ class AllInfo extends Component {
                 Company: <b>{jobCompany}</b><br />
                 Location: <b>{jobLocation}</b><br />
                 <button className="Back" onClick={this.back}>
-                    Back
+                « Back
                 </button>
             </>
         )
